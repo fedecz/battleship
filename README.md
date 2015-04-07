@@ -46,6 +46,6 @@ $ mvn clean test
 ```
 will compile and run all tests.
 
-Happy BattleShipping!
+Happy Battleship'ing!
 
 
