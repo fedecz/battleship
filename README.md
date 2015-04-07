@@ -35,3 +35,17 @@ After every turn you should call *game.hasFinished()* which will return true in 
 #### Some considerations:
 
 A ship is nothing else than a Set of squares in a board that should not be repeated among different ships at all. A player then wins when he/she hits all the squares that belong to a ship in a board. It doesn't really matter (in this implementation) if the square belongs to a BattleSHip, a Patrol, or a Cruiser. I just wanted to keep things simple. In the future I might add the ship information so that the game can actually answer questions like: "what ships are sill afloat?", "how many ships have I sunk?", etc. So far now is more like "How many squares have I hit?"
+
+#### What do I need to run it?
+
+You'd need Java 7, and maven if you would like to build it and run the tests.
+
+Simply check the code out and 
+```
+$ mvn clean test
+```
+will compile and run all tests.
+
+Happy BattleShipping!
+
+
